@@ -21,6 +21,8 @@ The project is built as a modular, event-driven system with dedicated services f
 
 ## Architecture
 
+![my-oj architecture: one submission travels from the browser through the edge, gateway and submission service to Kafka and the judge pod, then its verdict returns over SSE](https://raw.githubusercontent.com/My-Online-Judge/.github/main/profile/architecture.png)
+
 ```text
 Browser
    │
